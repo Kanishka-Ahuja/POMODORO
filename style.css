@@ -1,0 +1,162 @@
+body
+{
+    background-color: rgba(235,196,139,255);
+    margin: 0%;
+    height: 100vh;
+    padding: 0%;
+}
+
+#maindiv
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+
+}
+
+#div
+{
+    height: 460px;
+    width:220px;
+    background-color: rgba(73,62,51,255);
+    display: flex;
+    padding: 18px;
+    box-shadow: 1px 1px 30px #3a2b1d;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+#tdiv
+{
+    background-color: #636361;
+    height:200px;
+    display: flex;
+    padding: 15px;
+}
+
+#idiv
+{
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h
+{
+    align-self: center;
+    color: white;
+    font-family: "Calibri";
+    font-weight: 300;
+    font-size: 2em;
+    margin: 0;
+    padding: 4%;
+}
+
+#H
+{
+    align-self: center;
+    color: #06a4b4;
+    font-family: "Calibri";
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0;
+    padding: 4%;
+}
+#Pause
+{
+    display: none;
+}
+#timeclass
+{
+    display: flex;
+    border: 1px solid lightgray;
+    border-style: dotted;
+    border-left: 0px;
+    border-right: 0px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#timeclass1,#timeclass2
+{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1
+{
+    font-family: "Calibri";
+    font-size: 0.8em;
+    font-weight: 100;
+    margin: 0%;
+    color:white;
+}
+
+.h3
+{
+    font-family: "Calibri";
+    font-size: 1.3em;
+    font-weight: 400;
+    margin: 0%;
+}
+#h31
+{
+    color:#0a929f;
+}
+.iidiv
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10%;
+    padding-top:5%;
+    padding-bottom: 0%;
+}
+.iidiv2
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 9%;
+}
+.sbtn
+{
+    background-color:#1c1815;
+    color: white;
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    border:0px
+}
+
+.mbtn
+{
+    background-color:#1c1815;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    border:0px
+}
+.sbtn:active,.mbtn:active
+{
+
+    background-color: #180f07;
+}
+#h32
+{
+    color:#d5623f;
+}
+
+
